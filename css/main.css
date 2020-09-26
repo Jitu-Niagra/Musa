@@ -1,0 +1,53 @@
+*body{
+    font-size: 12px !important;
+    
+}
+
+/* See section */
+#see{
+    background:black;
+    text-align: center;
+    
+}
+.see{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.see-btn{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.jumbotron{
+    border-bottom-left-radius: 2rem;
+    margin-top:1rem ;
+}
+/* title section */
+.title{
+    cursor: pointer;
+
+}
+.text-underline{
+    width: 6rem;
+    height: 5px;
+    margin: auto;
+    transition: 3ms ease-in;
+    border: 2px dotted white;
+    background-color:black;
+}
+.title h1:hover{
+    color:orange !important;
+}
+#wrong,#wroColor,#rigColor,#right,#rigtColor,#wroTime,#rigTime{
+    opacity: 0%;
+    
+}
+.card{
+    margin:auto;
+ 
+    
+    
+}
+   
