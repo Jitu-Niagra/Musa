@@ -45,9 +45,13 @@
     
 }
 .card{
-    margin:auto;
- 
+    margin-top: 2rem !important;
+    box-shadow:  orange 10px 10px 10px;
     
     
+    
+}
+.qa{
+    display: inline;
 }
    
