@@ -54,6 +54,54 @@ timeLate=()=>{
       
    }
 }
+cssFrame=()=>{
+    console.log("clicked")
+    var e=document.getElementById("corFrame")
+   if(e.checked){
+       document.getElementById("rigFrame").style="opacity:100%"
+       document.getElementById("wroFrame").style="opacity:0%"
+       
+       
+   }
+   else{
+    document.getElementById("wroFrame").style="opacity:100% "
+    document.getElementById("rigFrame").style="opacity:0% "
+    
+      
+   }
+}
+sleepTime=()=>{
+    console.log("clicked")
+    var e=document.getElementById("corSleep")
+   if(e.checked){
+       document.getElementById("rigSleep").style="opacity:100%"
+       document.getElementById("wroSleep").style="opacity:0%"
+       
+       
+   }
+   else{
+    document.getElementById("wroSleep").style="opacity:100% "
+    document.getElementById("rigSleep").style="opacity:0% "
+    
+      
+   }
+}
+favFood=()=>{
+    console.log("clicked")
+    var e=document.getElementById("corFood")
+   if(e.checked){
+       document.getElementById("rigFood").style="opacity:100%"
+       document.getElementById("wroFood").style="opacity:0%"
+       
+       
+   }
+   else{
+    document.getElementById("wroFood").style="opacity:100% "
+    document.getElementById("rigFood").style="opacity:0% "
+    
+      
+   }
+}
 
 
 // document.getElementById('submit').onclick = function() {

@@ -40,18 +40,17 @@
 .title h1:hover{
     color:orange !important;
 }
-#wrong,#wroColor,#rigColor,#right,#rigtColor,#wroTime,#rigTime{
+#wrong,#wroColor,#rigColor,#right,#rigtColor,#wroTime,#rigTime
+,#rigFrame,#wroFrame,#rigSleep,#wroSleep,#wroFood,#rigFood{
     opacity: 0%;
     
 }
 .card{
-    margin-top: 2rem !important;
+    margin-top:1rem ;
     box-shadow:  orange 10px 10px 10px;
-    
+    padding: 2px;
     
     
 }
-.qa{
-    display: inline;
-}
+
    
