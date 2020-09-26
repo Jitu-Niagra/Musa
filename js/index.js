@@ -22,6 +22,19 @@ correctAnswer=()=>{
 console.log() 
 }
 changeColor=()=>{
+    var e=document.getElementById("corColor")
+   if(e.checked){
+       document.getElementById("rigColor").style="opacity:100%"
+       document.getElementById("wroColor").style="opacity:0%"
+       
+       
+   }
+   else{
+    document.getElementById("wroColor").style="opacity:100% "
+    document.getElementById("rigColor").style="opacity:0% "
+    
+      
+   }
     
    
 }
