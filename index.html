@@ -34,244 +34,152 @@
                 </div>
             </div>
             <!-- End of title -->
+            <!-- Start of questions -->
             <div class="container">
-                <div class="row qa">
-                    <!-- Start of question -->
-                    <div class=" col-sm-12 col-md-4 col-lg-4">
-                        <div class="card ">
-                            <div class="card-title">
-                                <h3>What is my name?</h3>
+                <div class="row">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="lead">What show shows at Ktn at 9:00pm</h3>
                             </div>
                             <div class="card-body">
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="correct" value="A">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                      Mandela
-                                    </label>
+                                <div class="form-check ">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="correct" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">1</label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                  Sipendi Supu ya Kuku
-                                    </label>
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">2</label>
                                   </div>
                                   <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                  Madi
-                                    </label>
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">3 </label>
                                   </div>
-                            </div>
-                            <div class="card-footer d-flex">
-                                <button onclick="correctAnswer()" class="btn btn-outline-primary">Submit</button>
-                                <div class="choices ml-auto">
-                                    <i class="fa fa-check-circle fa-2x m-2 text-success " id="right" aria-hidden="true"></i>
-                                    <i class="fa fa-times-circle fa-2x m-2 text-danger" id="wrong" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
+                            </div> 
                     </div>
-                    <!-- End  of question -->
-                    <div class=" col-sm-12 col-md-4 col-lg-4">
-                       <!-- Start of question -->
-                    <div class="card  ">
-                        <div class="card-title">
-                            <h3>What is the color of your font?</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="corColor" value="A">
-                                <label class="form-check-label" for="exampleRadios2">
-                               Black
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                <label class="form-check-label" for="exampleRadios2">
-                             White
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                <label class="form-check-label" for="exampleRadios2">
-                             Blue
-                                </label>
-                              </div>
-                        </div>
-                        <div class="card-footer d-flex">
-                            <button onclick="changeColor()" class="btn btn-outline-primary">Submit</button>
-                            <div class="choices ml-auto">
-                                <i class="fa fa-check-circle fa-2x m-2 text-success " id="rigColor" aria-hidden="true"></i>
-                                <i class="fa fa-times-circle fa-2x m-2 text-danger" id="wroColor" aria-hidden="true"></i>
-                            </div>
-                        </div>
                     </div>
-                   
-                    </div>
-                     <!-- End  of question --> 
-                    <div class="col-sm-12 col-md-4 col-lg-4">
-                         <!-- Start of question -->
-                     <div class="card ">
-                        <div class="card-title">
-                            <h3>How late am I?</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" value="A">
-                                <label class="form-check-label" for="exampleRadios2">
-                             2hrs 20mins
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios"  id="corTime" value="option">
-                                <label class="form-check-label" for="exampleRadios2">
-                             20mins 2hr late
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                <label class="form-check-label" for="exampleRadios2">
-                             More Than that
-                                </label>
-                              </div>
-                        </div>
-                        <div class="card-footer d-flex">
-                            <button onclick="timeLate()" class="btn btn-outline-primary">Submit</button>
-                            <div class="choices ml-auto">
-                                <i class="fa fa-check-circle fa-2x m-2 text-success " id="rigTime" aria-hidden="true"></i>
-                                <i class="fa fa-times-circle fa-2x m-2 text-danger" id="wroTime" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                   
-                    </div>
-                     <!-- End  of question -->
-                      <!-- Start of question -->
-                     <div class="col-sm-12 col-md-4">
-                        
-                    <div class="card   ">
-                        <div class="card-title">
-                            <h3>How late am I?</h3>
-                        </div>
-                        <div class="card-body">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios"  value="A">
-                                <label class="form-check-label" for="exampleRadios2">
-                            I don't sleep
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="corSleep" value="option">
-                                <label class="form-check-label" for="exampleRadios2">
-                             6hrs
-                                </label>
-                              </div>
-                              <div class="form-check">
-                                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                <label class="form-check-label" for="exampleRadios2">
-                            8hrs
-                                </label>
-                              </div>
-                        </div>
-                        <div class="card-footer d-flex">
-                            <button onclick="sleepTime()" class="btn btn-outline-primary">Submit</button>
-                            <div class="choices ml-auto">
-                                <i class="fa fa-check-circle fa-2x m-2 text-success " id="rigSleep" aria-hidden="true"></i>
-                                <i class="fa fa-times-circle fa-2x m-2 text-danger" id="wroSleep" aria-hidden="true"></i>
-                            </div>
-                        </div>
-                    </div>
-                   
-                     </div>
-                      <!-- End  of question -->
-                       <!-- Start of question -->
-                     <div class="col-sm-12 col-md-4">
-                        
-                        <div class="card   ">
-                            <div class="card-title">
-                                <h3>Which is not a css framework?</h3>
-                            </div>
-                            <div class="card-body">
-                               
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                 Bootsrap
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                Sass
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="corFrame" value="A">
-                                    <label class="form-check-label" for="exampleRadios2">
-                                Youu
-                                    </label>
-                                  </div>
-                            </div>
-                            <div class="card-footer d-flex">
-                                <button onclick="cssFrame()" class="btn btn-outline-primary">Submit</button>
-                                <div class="choices ml-auto">
-                                    <i class="fa fa-check-circle fa-2x m-2 text-success " id="rigFrame" aria-hidden="true"></i>
-                                    <i class="fa fa-times-circle fa-2x m-2 text-danger" id="wroFrame" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                       
-                         </div>
-                          <!-- End  of question -->
-                           <!-- Start of question -->
-                     <div class="col-sm-12 col-md-4">
-                        
-                        <div class="card   ">
-                            <div class="card-title">
-                                <h3>What is my favourite food?</h3>
-                            </div>
-                            <div class="card-body">
-                                
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                    <label class="form-check-label" for="exampleRadios2">
-                               You
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="corFood" value="A">
-                                    <label class="form-check-label" for="exampleRadios2">
-                            Omena
-                                    </label>
-                                  </div>
-                                  <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option">
-                                    <label class="form-check-label" for="exampleRadios2">
-                               Tilapia
-                                    </label>
-                                  </div>
-                            </div>
-                            <div class="card-footer d-flex">
-                                <button onclick="favFood()" class="btn btn-outline-primary">Submit</button>
-                                <div class="choices ml-auto">
-                                    <i class="fa fa-check-circle fa-2x m-2 text-success " id="rigFood" aria-hidden="true"></i>
-                                    <i class="fa fa-times-circle fa-2x m-2 text-danger" id="wroFood" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                       
-                         </div>
-                          <!-- End  of question -->
-                          
 
-                    
-                   
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="lead">What is JS</h3>
+                            </div>
+                            <div class="card-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">LaraScript</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">ScriptTag</label>
+                                  </div>
+                                  <div class="form-check ">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="correct" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">JavaSCript</label>
+                                  </div>
+                            </div> 
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="lead">What is Python</h3>
+                            </div>
+                            <div class="card-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">A snake</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">A language</label>
+                                  </div>
+                                  <div class="form-check ">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="correct" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">A lifestyle</label>
+                                  </div>
+                            </div> 
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="lead">What am I</h3>
+                            </div>
+                            <div class="card-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Madi</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">Tumboko</label>
+                                  </div>
+                                  <div class="form-check ">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="correct" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Supu ya Kuku</label>
+                                  </div>
+                            </div> 
+                    </div>
+                    </div>
+
+                    <div class="col-md-4 col-sm-6">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="lead">What is our staple food</h3>
+                            </div>
+                            <div class="card-body">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                    <label class="form-check-label" for="inlineRadio2">Maize</label>
+                                  </div>
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                    <label class="form-check-label" for="inlineRadio3">ScriptTag</label>
+                                  </div>
+                                  <div class="form-check ">
+                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="correct" value="option1">
+                                    <label class="form-check-label" for="inlineRadio1">Omena</label>
+                                  </div>
+                            </div> 
+                    </div>
+                    </div>
                 </div>
             </div>
+            <!-- End of questions -->
             
+            <!-- start of  results div -->
+            <div class="container m-5">
+                <div class="row">
+                    <div class="col-md-6 col-sm-12 m-auto" id="resDiv">
+                        
+                    </div>
+                    <div class="col-md-6 m-auto">
+                        <button onclick="getResults()" class="btn btn-outline-primary">Submit</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- End of  results div -->
         </section>
+
+        <!-- Start of Booklist Event -->
+        <section id="book">
+            <!-- Title -->
+            <div class="container text-center title">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="text-primary name">Booklist</h1>
+                        <div class="text-underline"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- End of title -->
+            <!-- Start of list  -->
+        </section>
+        <!-- Start of Booklist Event -->
         
     
 

@@ -40,10 +40,8 @@
 .title h1:hover{
     color:orange !important;
 }
-#wrong,#wroColor,#rigColor,#right,#rigtColor,#wroTime,#rigTime
-,#rigFrame,#wroFrame,#rigSleep,#wroSleep,#wroFood,#rigFood{
-    opacity: 0%;
-    
+.choice{
+    border: 2px solid teal;
 }
 .card{
     margin-top:1rem ;
@@ -52,5 +50,6 @@
     
     
 }
+/*  */
 
    
