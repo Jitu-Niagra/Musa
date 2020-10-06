@@ -1,5 +1,8 @@
 *body{
     font-size: 12px !important;
+    font-family:"Arial",sans-serif;
+    color:#ffff;
+    background: #333;
     
 }
 
@@ -48,8 +51,67 @@
     box-shadow:  orange 10px 10px 10px;
     padding: 2px;
     
-    
 }
+.imgCarr{
+    text-align: center;
+    margin:2rem;
+    float: left;
+}
+.fa-play{
+    position: relative;
+    bottom:8.5em;
+    left:1em;
+}
+.fa-play:hover{
+    cursor: pointer;
+}
+
+/* Carrousel */
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    text-align:center;
+}
+ .slider-inner{
+	width:500px;
+	height:300px;
+	position:relative;
+	overflow:hidden;
+	float:left;
+	padding:3px;
+	border:#666 solid 1px;
+}
+
+.slider-inner img{
+	display:none;
+	
+}
+
+.slider-inner img.active{
+	display:inline-block;
+}
+
+.prev,.next{
+	float:left;
+	margin-top:130px;
+	cursor: pointer;
+}
+
+.prev{
+	position:relative;
+	margin-right:-45px;
+	z-index:100;
+}
+
+.next{
+	position:relative;
+	margin-left:-45px;
+	z-index:100;
+}
+
+
 /*  */
 
    
